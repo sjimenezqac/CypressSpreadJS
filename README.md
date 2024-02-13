@@ -1,7 +1,7 @@
 Small PoC for Cypress automating interaction with SpreadJS in Angular object
 
-Prerequisites:
-Option 1 (default): Clone and install demo app: https://github.com/sjimenezqac/AngularSpreadJSSample 
+Prerequisites:  
+Option 1 (default): Clone and install demo app: https://github.com/sjimenezqac/AngularSpreadJSSample  
 Option 2: Use SpreadJS provided demo app: https://developer.mescius.com/spreadjs/demos/sample/features/worksheet/initialize-sheet/purejs/
 
 1. npm install
