@@ -1,7 +1,11 @@
 Small PoC of Cypress interacting with SpreadJS object in an Angular application.
 
 ### Precondition
-App under test must expose SpreadJS module to window context so that it can be visible by automation execution.
+App under test must expose SpreadJS module to window context so that it can be visible by automation execution.  
+```Javascript
+import * as GC  from '@mescius/spread-sheets'
+window["GC"] = GC
+```
 
 ### Prerequisites:  
 Option 1 (default): Clone, install and run demo app: https://github.com/sjimenezqac/AngularSpreadJSSample  
